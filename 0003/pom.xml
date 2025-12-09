@@ -8,11 +8,11 @@
 		<version>3.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>0002-tool-calling-layered</artifactId>
+	<groupId>lan.spring_ai</groupId>
+	<artifactId>0003-spring-ai-lm-studio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>0002-tool-calling-layered</name>
-	<description>Video 0002 - Spring AI Tool Calling Layered</description>
+	<name>0003-spring-ai-lm-studio</name>
+	<description>Video 0003 - Spring AI with LM Studio</description>
 	<url/>
 	<licenses>
 		<license/>
