@@ -1,0 +1,10 @@
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+      "get-top-news": {
+        "type": "local",
+        "command": ["java", "-jar", "/mnt/data/projects/YouTube/videos/20251209 - 0004 - MCP Server STDIO/java/target/0004-spring-ai-mcp-server-stdio-0.0.1-SNAPSHOT.jar"],
+        "enabled": true
+      },
+    },
+  }
