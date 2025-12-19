@@ -49,11 +49,15 @@
             <optional>true</optional>
         </dependency>
 
+		<!-- Provides a core MCP server with standard input/output (STDIO) transport. 
+		     Does not include web/HTTP dependencies -->
 	    <dependency>
 	        <groupId>org.springframework.ai</groupId>
 	        <artifactId>spring-ai-starter-mcp-server</artifactId>
 	    </dependency>
 
+		<!-- Include web/HTTP dependencies for the 'org.springframework.web.client.RestClient' 
+		     class used in HackerNewsProviderImpl -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
